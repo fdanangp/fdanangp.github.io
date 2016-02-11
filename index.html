@@ -1,21 +1,31 @@
----
-layout: home
----
-
-<section class="hero">
-
-  <div class="hero-inner container">
-
-    <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
-    <h1>Hello!..</h1>
-    <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
-    <h3>{{ site.author.bio }}</h3>
-
-    <a href="{{ '/about' | prepend: site.baseurl }}" class="btn btn-ghost">about</a>
-    <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn btn-ghost">blog</a>
-
-    {% include social.html %}
-
-  </div>
-
-</section>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Firdani Danang Prakoso's Web Pages
+        </title>
+        <linl rel="stylesheet" type="text/css" media="all"
+              href="main.css"/>
+    </head>
+    <body>
+        <div id="profile">
+            <div class="name">
+                <a href="http://fdanangp.github.io"><img src=""/></a>
+                Firdani Danang Prakoso<br />
+            </div>
+            <div class="description">
+                Indonesian. Muslim. Agrotechnology  Student. FOSS Enthusiast.
+            </div>
+        </div>
+        <div id="navigation">
+            <a href="http://fdanangp.github.io/blog">blog</a>
+            <a href="http://fdanangp.github.io/portofolio">portofolio</a>
+        </div>
+        <div id="contact">
+            <a href="http://"><img src=""/></a>
+            <a href="http://"><img src=""/></a>
+            <a href="http://"><img src=""/></a>
+            <a href="http://"><img src=""/></a>
+        </div>
+    </body>
+</html>
